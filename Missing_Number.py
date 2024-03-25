@@ -1,11 +1,11 @@
-def missing_number(num,array):
+def missing_number(num,array): # recibe dos parametros num y array
     list = []
-    for i in range(1, num+1):
+    for i in range(1, num+1): # recorre el rango de 1 hasta num+1
         list.append(i)
 
-    sum_missing = sum(array)
-    sum_list = sum(list)
-    resul = sum_list - sum_missing
+    sum_missing = sum(array) # suma los elementos del array
+    sum_list = sum(list) # suma los elementos de la lista
+    resul = sum_list - sum_missing # resta la suma de la lista menos la suma del array
     print(resul)
     return resul
     
