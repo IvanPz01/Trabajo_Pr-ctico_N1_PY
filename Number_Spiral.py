@@ -16,6 +16,6 @@ def number_spiral (fila, colum): # recibe dos parametros fila y columna
         
  
 
-print(number_spiral(2, 3)) # 8
+assert number_spiral(2, 2) != 25, "Error en el caso de prueba"
 
 print("todos los casos han pasado exitosamente")
