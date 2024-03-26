@@ -10,12 +10,12 @@ def weird_algorithm(numero):
                 list.append(numero)
                 
             else:
-                numero = (3 * numero) + 1
-                list.append(numero)
+                numero = (3 * numero) + 1 # multiplica el numero por 3 y le suma 1
+                list.append(numero) 
         
     return list
 
-test = weird_algorithm(numero)
+test = weird_algorithm(numero) # llama a la funcion y le pasa el numero
 print(test)
 
 assert weird_algorithm(3) == [3, 10, 5, 16, 8, 4, 2, 1], "Error en el caso de prueba"
